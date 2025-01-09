@@ -68,8 +68,8 @@ subprojects {
         setGameVersions rootProject.minecraft_version
         setLoaders([project.name])
         setCurseEnvironment "both"
-        setArtifact jar
+        setArtifact remapJar
         setJavaVersions([java.targetCompatibility])
-        setChangelog("Fixed a Texture Being Missing")
+        setChangelog("Fixed the Mod not having the Mod")
     }
 }

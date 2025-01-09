@@ -6,16 +6,16 @@
     "version": "${version}",
     "metadata": {
       "name": "Simple Banana",
-      "description": "This is an example description! Tell everyone what your mod is about!",
+      "description": "BANANA !!!",
       "contributors": {
-        "Me!": "Author"
+        "thePlaceholder": "Author"
       },
       "icon": "assets/simple_banana/icon.png"
     },
     "intermediate_mappings": "net.fabricmc:intermediary",
     "entrypoints": {
       "init": [
-        "org.theplaceholder.quilt.ExampleModQuilt"
+        "org.theplaceholder.simplebanana.quilt.SimpleBananaModQuilt"
       ]
     },
     "depends": [

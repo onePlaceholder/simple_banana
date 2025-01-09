@@ -1,17 +1,16 @@
 modLoader = "javafml"
 loaderVersion = "[47,)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+license = "MIT"
 
 [[mods]]
 modId = "simple_banana"
 version = "${version}"
 displayName = "Simple Banana"
-authors = "Me!"
+authors = "thePlaceholder"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+BANANA !!!
 '''
-#logoFile = ""
+logoFile = "assets/simple_banana/icon.png"
 
 [[dependencies.simple_banana]]
 modId = "forge"

@@ -1,0 +1,20 @@
+{
+  "banana_split": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "simple_banana:banana_split",
+        "stream": true
+      }
+    ]
+  },
+  "banana_split_bb": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "simple_banana:banana_split_bb",
+        "stream": true
+      }
+    ]
+  }
+}

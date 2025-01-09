@@ -3,23 +3,16 @@
   "id": "simple_banana",
   "version": "${version}",
   "name": "Simple Banana",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "BANANA !!!",
   "authors": [
-    "Me!"
+    "thePlaceholder"
   ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
   "license": "CC0-1.0",
   "icon": "assets/simple_banana/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "org.theplaceholder.fabric.ExampleModFabric"
-    ],
-    "client": [
-      "org.theplaceholder.fabric.client.ExampleModFabricClient"
+      "org.theplaceholder.simplebanana.fabric.SimpleBananaModFabric"
     ]
   },
   "mixins": [

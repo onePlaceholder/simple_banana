@@ -70,6 +70,6 @@ subprojects {
         setCurseEnvironment "both"
         setArtifact jar
         setJavaVersions([java.targetCompatibility])
-        setChangelog("changelog.md")
+        setChangelog("Fixed a Texture Being Missing")
     }
 }

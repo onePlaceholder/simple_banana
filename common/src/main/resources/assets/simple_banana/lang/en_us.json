@@ -1,7 +1,7 @@
 {
   "item.simple_banana.banana_split": "Music Disc",
-  "item.simple_banana.banana_split.desc": "Banana Split - Lio",
+  "jukebox_song.simple_banana.banana_split": "Banana Split - Lio",
   "item.simple_banana.banana": "Banana",
   "item.simple_banana.banana_split_bb": "Music Disc",
-  "item.simple_banana.banana_split_bb.desc": "Banana Split [Base Boosted] - Lio"
+  "jukebox_song.simple_banana.banana_split_bb": "Banana Split [Base Boosted] - Lio"
 }

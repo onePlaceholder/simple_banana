@@ -14,7 +14,7 @@ public class SimpleBananaSounds {
     public static final RegistrySupplier<SoundEvent> BANANA_SPLIT_BB = register("banana_split_bb");
 
     public static RegistrySupplier<SoundEvent> register(String id) {
-        ResourceLocation location = new ResourceLocation(SimpleBananaMod.MOD_ID, id);
+        ResourceLocation location = ResourceLocation.tryBuild(SimpleBananaMod.MOD_ID, id);
         return SOUND_EVENTS.register(location, () -> SoundEvent.createVariableRangeEvent(location));
     }
 

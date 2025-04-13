@@ -1,5 +1,5 @@
 plugins {
-    id 'dev.architectury.loom' version '1.7-SNAPSHOT' apply false
+    id 'dev.architectury.loom' version '1.9-SNAPSHOT' apply false
     id 'architectury-plugin' version '3.4-SNAPSHOT'
     id 'com.github.johnrengelman.shadow' version '8.1.1' apply false
     id "com.hypherionmc.modutils.modpublisher" version "2.1.6" apply false
@@ -20,6 +20,7 @@ subprojects {
     apply plugin: 'architectury-plugin'
     apply plugin: 'maven-publish'
     apply plugin: "com.hypherionmc.modutils.modpublisher"
+
     base {
         archivesName = "$rootProject.archives_name-$project.name"
     }
@@ -38,12 +39,12 @@ subprojects {
     java {
         withSourcesJar()
 
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
 
     tasks.withType(JavaCompile).configureEach {
-        it.options.release = 17
+        it.options.release = 21
     }
 
     publishing {
@@ -70,6 +71,6 @@ subprojects {
         setCurseEnvironment "both"
         setArtifact remapJar
         setJavaVersions([java.targetCompatibility])
-        setChangelog("Fixed the Mod not having the Mod")
+        setChangelog rootProject.changelog
     }
 }

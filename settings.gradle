@@ -12,6 +12,4 @@ rootProject.name = 'simple_banana'
 
 include 'common'
 include 'fabric'
-include 'fabric-like'
-include 'forge'
-include 'quilt'
+include 'neoforge'

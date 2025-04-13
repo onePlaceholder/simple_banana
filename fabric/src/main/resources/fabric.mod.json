@@ -15,17 +15,12 @@
       "org.theplaceholder.simplebanana.fabric.SimpleBananaModFabric"
     ]
   },
-  "mixins": [
-    "simple_banana.mixins.json"
-  ],
+  "mixins": [],
   "depends": {
-    "fabricloader": ">=0.16.10",
-    "minecraft": "~1.20.1",
-    "java": ">=17",
-    "architectury": ">=9.2.14",
+    "fabricloader": ">=0.16.13",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.8",
     "fabric-api": "*"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }

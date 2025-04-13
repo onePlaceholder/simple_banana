@@ -14,8 +14,8 @@ public final class SimpleBananaMod {
     public static final Supplier<RegistrarManager> REGISTRAR_MANAGER = Suppliers.memoize(() -> RegistrarManager.get(MOD_ID));
 
     public static void init() {
-        SimpleBananaSounds.init();
         SimpleBananaItems.init();
+        SimpleBananaSounds.init();
 
         LootEvent.MODIFY_LOOT_TABLE.register(new JungleLeaveLootTableModifier());
     }
